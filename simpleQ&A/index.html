@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wholeWindow">
+      <div class="mainContainer1" id="cont1">
+        <div class="question">
+          <b>
+            What was the most used
+            <br />prgramming language in 2019?</b
+          >
+        </div>
+        <div class="answers">
+          <div>
+            <input type="radio" name="status" id="java" value="Java" />
+            Java
+          </div>
+          <br />
+          <div>
+            <input type="radio" name="status" id="c" value="C" />
+            C
+          </div>
+          <br />
+          <div>
+            <input type="radio" name="status" id="python" value="Python" />
+            Python
+          </div>
+          <br />
+          <div>
+            <input type="radio" name="status" id="js" value="JavaScript" />
+            JavaScript
+          </div>
+        </div>
+        <button class="submitButton" onclick="changeCards()">SUBMIT</button>
+      </div>
+
+      <div class="mainContainer" id="cont2">
+        <div class="question">
+          <b> Who is the president of US?</b>
+        </div>
+        <div class="answers">
+          <div>
+            <input type="radio" id="donald" name="status" value="DonaldTrump" />
+            Donald Trump
+          </div>
+          <br />
+          <div>
+            <input type="radio" id="joe" name="status" value="joe" />
+            Joe Biden
+          </div>
+          <br />
+          <div>
+            <input type="radio" id="hil" name="status" value="Hillary" />
+            Hillary Clinton
+          </div>
+          <br />
+          <div>
+            <input type="radio" id="ber" name="status" value="Bernie" />
+            Bernie Sanders
+          </div>
+        </div>
+        <button class="submitButton" onclick="changeCards1()">SUBMIT</button>
+      </div>
+
+      <div class="mainContainer" id="cont3">
+        <div class="question">
+          <b> <h> What does html stand for?</h></b>
+        </div>
+        <div class="answers">
+          <div>
+            <input type="radio" id="ans1" name="status" />
+            Hypertext Markup Language
+          </div>
+          <br />
+          <div>
+            <input type="radio" id="ans2" name="status" />
+            Cascading Style Sheet
+          </div>
+          <br />
+          <div>
+            <input type="radio" id="ans3" name="status" />
+            Jason Object Notation
+          </div>
+          <br />
+          <div>
+            <input type="radio" id="ans4" name="status" />
+            None of the above
+          </div>
+        </div>
+        <button class="submitButton" onclick="changeCards2()">SUBMIT</button>
+      </div>
+
+      <div class="mainContainer" id="cont4">
+        <div class="question">
+          <b><h> What year was JavaScript launched?</h></b>
+        </div>
+        <div class="answers">
+          <div>
+            <input type="radio" id="ans93" name="status" />
+            1993
+          </div>
+          <br />
+          <div>
+            <input type="radio" id="ans94" name="status" />
+            1994
+          </div>
+          <br />
+          <div>
+            <input type="radio" id="ans95" name="status" />
+            1995
+          </div>
+          <br />
+          <div>
+            <input type="radio" id="ans96" name="status" />
+            1996
+          </div>
+        </div>
+        <button class="submitButton" onclick="changeCards3()">SUBMIT</button>
+      </div>
+
+      <div class="scoreContainer" id="scoreDisplay"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.wholeWindow {
+  background-color: gainsboro;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+}
+.mainContainer1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 30%;
+  height: 350px;
+  background-color: ghostwhite;
+  border-radius: 5px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  display: none;
+  flex-direction: column;
+  width: 30%;
+  height: 350px;
+  background-color: ghostwhite;
+  border-radius: 5px;
+}
+.scoreContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  display: none;
+  width: 40%;
+  height: 100px;
+  background-color: ghostwhite;
+  border-radius: 5px;
+}
+.submitButton {
+  background-color: rgb(158, 49, 158);
+  border-color: transparent;
+  width: 100%;
+  height: 50px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+.refresh {
+  background-color: rgb(158, 49, 158);
+  border-color: transparent;
+  width: 100%;
+  height: 50px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+#scoreDisplay {
+  padding-top: 18px;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+input.radio {
+  display: inline;
+  display: flex;
+}
+
+.mustShow {
+  display: flex !important;
+}
+
+.notShow {
+  display: none;
+}
+
+button:hover {
+  transition: 0.3s;
+  background-color: rgb(212, 57, 212);
+}
